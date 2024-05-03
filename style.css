@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  background-color: antiquewhite;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#thankYouButton {
+  height: 50px;
+  width: 150px;
+  padding: 10px 20px;
+  border: 1px solid cornflowerblue;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+#thankYouMessage {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6347;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
